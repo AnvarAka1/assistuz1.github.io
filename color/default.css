@@ -1,0 +1,132 @@
+
+a,.tp-caption a.btn:hover {
+	color: #67b0d1;
+}
+.top-nav-collapse {
+	background: black;
+}
+
+.navbar-custom ul.nav ul.dropdown-menu li a:hover {
+	color: #67b0d1;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background-color: #67b0d1;
+}
+
+.widget-avatar .avatar:hover {
+    border: 5px solid #67b0d1;
+}
+
+.bg-skin {
+	background: #67b0d1;
+}
+
+form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
+	border-color: #67b0d1;
+}
+
+footer {
+    /*background-color: #67b0d1;*/
+    background-color: black;
+}
+
+.btn-skin {
+  color: #fff;
+  background-color: #67b0d1;
+  border-color: #67b0d1;
+}
+
+
+
+
+/* start clients-section
+   =======================================================*/
+.clients-section {
+  padding-top: 50px;
+  height: 70vh;
+  text-align: center;
+  background-color: #f8f8f8;
+  background-attachment: fixed;
+  background-size: cover;
+  color: black;
+  /*overflow: hidden;*/
+}
+
+/*carousel starts*/
+.quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 60px;
+}
+
+.quote-carousel .carousel-control {
+  background: none;
+  color: black;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+
+.quote-carousel .carousel-indicators {
+  position: relative;
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-top: 20px;
+  margin-right: -19px;
+}
+
+.quote-carousel .carousel-indicators li {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border: 3px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  opacity: 0.4;
+  overflow: hidden;
+  transition: all .4s ease-in;
+  vertical-align: middle;
+}
+
+.quote-carousel .carousel-indicators .active {
+  width: 120px;
+  height: 120px;
+  opacity: 1;
+  transition: all .2s;
+
+}
+
+.item blockquote {
+  border-left: none;
+  margin: 0;
+}
+
+.item blockquote p:before {
+  content: "\f10d";
+  font-family: 'fontawesome';
+  float: left;
+  margin-right: 10px;
+}
+/*carousel ends*/
+
+/*ROUNDS*/
+.img-circle {
+  transition:all 0.3s ease-in;
+  border: 3px solid white;
+}
+
+.img-circle:hover {
+    border-radius: 10%;
+    border: 3px solid white;
+}
+
+
+@media(max-width: 767px){
+  .clients-section
+  {
+        min-height: 80vh;
+  }
+
+}
